@@ -10,7 +10,7 @@ experience for me.
 
 👺  **What it does** 👺
 
-It first scans its enviroment for sandboxes. Then, it tries to grab the hosts, discord token, windows key, email, and IP
+It first scans its enviroment for sandboxes. Then, it tries to grab the host's, discord token, windows key, email, and IP
 
 📖  **FYI**  📖
 
