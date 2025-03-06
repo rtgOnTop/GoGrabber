@@ -22,5 +22,5 @@ please insert your webhook into the getwebhook function
 
 I **Highly** discourage using this for malicous purposes, the malware is already burnt (
 Not polymorphic), its **Illegal** to use this on others without their consent and 
-knowledge on what this code does. I am not responsible for damages if you use this
+full knowledge on what this code does. I am not responsible for damages if you use this
 on others or yourself you using my code fully acknowledge this.
